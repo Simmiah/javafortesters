@@ -1,9 +1,7 @@
 package com.javafortesters.basicsrevisited;
 
 import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
-
 
 /**
  * Created by Simmiah on 7/21/16.
