@@ -5,4 +5,5 @@ package com.javafortesters.basicsrevisited;
  */
 public class ClassExample {
     public static String aClassField = "a class field";
+    public String pubField = "a public field";
 }
