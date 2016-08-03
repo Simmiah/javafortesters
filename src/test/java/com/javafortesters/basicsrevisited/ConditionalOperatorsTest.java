@@ -1,6 +1,7 @@
 package com.javafortesters.basicsrevisited;
 
 import org.junit.Test;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -9,6 +10,10 @@ import static org.junit.Assert.assertTrue;
 public class ConditionalOperatorsTest {
     @Test
     public void conditionalOperatorsExplored(){
-        assertTrue();
+        assertTrue(true && true);
+        assertTrue(true || false);
+        assertTrue(false || true);
+        assertFalse(false || false);
+        assertFalse(false && true);
     }
 }
