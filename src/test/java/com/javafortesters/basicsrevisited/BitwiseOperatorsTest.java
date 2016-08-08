@@ -19,6 +19,15 @@ public class BitwiseOperatorsTest {
 
     @Test
     public void bitwiseAssignmentOperatorsExplored(){
+        byte x = 0b0001;
 
+        x &= 0b1011;
+        assertEquals(0b0001, x);
+
+        x |= 0b1001;
+        assertEquals(0b1001, x);
+
+        x ^= 0b1110;
+        assertEquals(0b0111, x);
     }
 }
