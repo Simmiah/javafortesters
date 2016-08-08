@@ -21,5 +21,9 @@ public class StringsTest {
         assertTrue(aString.compareToIgnoreCase("ABCDEF")==0);
         assertTrue(aString.contains("bcde"));
         assertTrue(aString.startsWith("abc"));
+
+        // string indexing starts at 0
+        assertEquals('c', aString.charAt(2));
+        assertEquals("ef", aString.substring(4));
     }
 }
