@@ -18,4 +18,16 @@ public class ArraysTest {
 
         assertEquals("|Monday|Tuesday|Wednesday|Thursday|Friday", days);
     }
+
+    @Test
+    public void forLoop(){
+        String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+        String days ="";
+
+        for(int i=0; i<5; i++){
+            days = days + "|" + workdays[i];
+        }
+
+        assertEquals("|Monday|Tuesday|Wednesday|Thursday|Friday", days);
+    }
 }
